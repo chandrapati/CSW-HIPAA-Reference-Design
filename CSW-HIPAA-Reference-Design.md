@@ -69,6 +69,8 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 Execute these phases for **this framework's** compliance boundary. Map exports to control IDs in the **Reporting & Evidence** section below.
 
+![CSW evidence workflow for HIPAA — the four phases from agent coverage through continuous proof, with the evidence artifact produced at each phase](assets/csw-evidence-workflow.png)
+
 | Phase | Goal | Key CSW actions | Typical duration |
 |-------|------|-----------------|------------------|
 | **1 — Coverage** | Every in-scope workload in CSW | Install agents/connectors; apply compliance labels; create scope | Days 1–10 |
@@ -201,6 +203,8 @@ CSW UI → Manage → Agents
 ### 4.1 HIPAA Scope Architecture
 
 Design scopes around PHI data classification. Recommended hierarchy:
+
+![HIPAA scope architecture — the recommended CSW scope hierarchy, with label-driven membership so the boundary stays current](assets/csw-scope-architecture.png)
 
 ```
 Root Scope
