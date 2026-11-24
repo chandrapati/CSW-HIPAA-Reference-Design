@@ -204,6 +204,8 @@ CSW UI → Manage → Agents
 
 Design scopes around PHI data classification. Recommended hierarchy:
 
+![HIPAA scope architecture — the recommended CSW scope hierarchy, with label-driven membership so the boundary stays current](assets/csw-scope-architecture.png)
+
 ```
 Root Scope
 └── Healthcare-Org (top-level)
